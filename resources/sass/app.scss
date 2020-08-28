@@ -1,0 +1,46 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+
+// Variables
+@import 'variables';
+$fa-font-path: '../webfonts';
+
+// Bootstrap
+// @import '~bootstrap/scss/bootstrap';
+
+// AdminLTE
+// @import '~admin-lte/dist/css/adminlte.css';
+
+// Fontawesome
+@import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '~@fortawesome/fontawesome-free/scss/solid.scss';
+@import '~@fortawesome/fontawesome-free/scss/brands.scss';
+
+// Add your custom sass code below...
+
+body {
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.user {
+    width: 45px;
+    height: 45px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.9rem;
+    border: 1px solid #b2bec3;
+    background: #b2bec3;
+    border-radius: 50px;
+}
