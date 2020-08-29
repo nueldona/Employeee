@@ -13,6 +13,7 @@ class employeeController extends Controller
      */
     public function index()
     {
+        return view('employee');
         //
     }
 
@@ -46,6 +47,7 @@ class employeeController extends Controller
      */
     public function show($id)
     {
+
         //
     }
 
@@ -83,3 +85,4 @@ class employeeController extends Controller
         //
     }
 }
+

@@ -1,15 +1,27 @@
 import Vue from "vue";
 import Router from "vue-router";
-import { create } from "lodash";
 
 Vue.use(Router);
+
+import create from './components/view/create.vue'
+import home from './components/view/home.vue'
 
 const routes = [
     {
         path:'/',
-        name: '',
-        // component: './'
-    }
+        name: 'home',
+        component: home
+    },
+    {
+        path:'/create',
+        name: 'create',
+        component: create
+    },
+    // {
+    //     path: '/users',
+    //     name: 'users.index',
+    //     component: usersIndex
+    // }
 ];
 
 const router = new Router({

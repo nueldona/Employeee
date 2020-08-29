@@ -2,7 +2,9 @@
   <div class="layer">
       <div class="inner__layer">
           <div class="text__lg">employee</div>
-          <button class="btn btn__md">add employee</button>
+          <router-link :to="{ name: 'create'}">
+            <button class="btn btn__md">add employee</button>
+          </router-link>
       </div>
   </div>
 </template>

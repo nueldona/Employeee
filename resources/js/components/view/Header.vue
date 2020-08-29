@@ -23,11 +23,13 @@
                                 >Statistic</a
                             >
                         </li>
+                        <router-link :to="{ name: 'home'}">
                         <li class="menu__list__item">
-                            <a href="faq.html" class="menu__list__link"
+                            <a href="Employee_page" class="menu__list__link"
                                 >Employee</a
                             >
                         </li>
+                        </router-link>
                         <li class="menu__list__item">
                             <a href="contact-us.html" class="menu__list__link"
                                 >Client</a
@@ -59,6 +61,11 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
+a {
+    text-decoration: none;
+}
+
+
 header {
     max-width: 100%;
     height: 100%;
