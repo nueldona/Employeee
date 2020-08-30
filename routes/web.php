@@ -15,5 +15,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/{any}', 'employeeController@index')->where('any', '.*');
 
-// Route::resource('employee', 'employeeController');
 

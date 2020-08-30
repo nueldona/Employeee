@@ -95,10 +95,10 @@
 
 <script>
 export default {
-    name: "panel",
+    name: "employee",
     data() {
         return {
-            panel: {
+            employee: {
                 name: "",
                 position: "",
                 salary: "",

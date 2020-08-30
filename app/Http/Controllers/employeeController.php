@@ -13,6 +13,7 @@ class employeeController extends Controller
      */
     public function index()
     {
+        // $employees = employee::latest();
         return view('employee');
         //
     }
@@ -24,6 +25,8 @@ class employeeController extends Controller
      */
     public function create()
     {
+
+        return view('employee.create');
         //
     }
 
@@ -36,6 +39,14 @@ class employeeController extends Controller
     public function store(Request $request)
     {
         //
+        $request->validate([
+            'name' => 'required|min:3',
+            'position' => 'required|min:3',
+            'salary' => 'required|min:3',
+            'jobStatus' => 'required|min:3',
+            'status' => 'required|min:3',
+            'yearLength' => 'required|min:3',
+        ]);
         dd($request->all());
     }
 

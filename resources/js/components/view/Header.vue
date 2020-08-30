@@ -112,7 +112,7 @@ header {
                     &:hover {
                         color: #000000;
                         transition: 0.3s ease-in-out;
-                        &::after {
+                        &:active, &::after{
                             position: absolute;
                             content: "";
                             top: 60px;
